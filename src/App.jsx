@@ -1,11 +1,14 @@
 
 import './App.css'
+import Packages from './components/GymPackages/GymPackages'
+import Nav from './components/Navbar/Nav'
 
 function App() {
   return (
     <>
       
-      <h1></h1>
+      <Nav/>
+      <Packages/>
     </>
   )
 }
